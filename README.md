@@ -103,10 +103,10 @@ I will make sure that the icons are styled according to the website. The icons w
 <a></a>
 #### Colors
 The color scheme is based on [Ways logo](assets/images/ways-logo.png "Ways logo"). I will emplement the same colors on the website as there are used in the logo. 
-You can view my color scheme [here](https://colorhunt.co/palette/193637).
+You can view my color scheme [here](https://coolors.co/56a44c-80ba77-61aebe-ffed4b-fff5f5).
 Below I will explain more why I choose the various colors and for what I will be using them.
 
-![Color Scheme](wireframes/color-scheme.png)
+![Color Scheme](assets/images/color-scheme.png)
 
 * #3C5D4B: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
 * #A1BAAF: This color is a slightly ligher green which I will use for my call-to-action buttons.
