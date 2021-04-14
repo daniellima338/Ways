@@ -108,11 +108,11 @@ Below I will explain more why I choose the various colors and for what I will be
 
 ![Color Scheme](assets/images/color-scheme.png)
 
-* #3C5D4B: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
-* #A1BAAF: This color is a slightly ligher green which I will use for my call-to-action buttons.
-* #F6FFF8: This color will be used as text color for the overall contact of the page. It's a mint cream (off white) which stands out well to the background colors that I have chosen.
-* #39210C: This is a seal brown color which represents the wood in nature. I will use this color as text-color for my call-to-action buttons. 
-* #24382d: This is a slighly darker green than #3C5D4B that I used for the navigation bar and the footer. This way you can clearly see where the navigation bar ends and the rest of the website starts. 
+* #56A44C: This color will be used as my primary background-color. It is the green color from the Ways logo. It will give a nice streamlined effect throughout the website. 
+* #FFF5F5: This is a suttle white color. It will be used for the text throughout the page. It will stand out well from the green background.
+* #80BA77: This color will be used as text color for the overall contact of the page. It's a mint cream (off white) which stands out well to the background colors that I have chosen.
+* #61AEBE: This is a slightly lighter Green than #56A44C and will be used in various places throughout the page.
+* #FAE94D: This is a sweet Yellow color that will be used as a divider throughout the page. It also links back to the logo of Ways. 
 
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
 This way my content will be easily readable. 
