@@ -72,36 +72,37 @@ If you have any feedback or questions, head over to my GitHub contact details an
 * Clear information on how to contact, if users have any questions
 
 <a></a>
-#### Expectations (This is where i have come to)
+#### Expectations 
 * When clicking on links (like social media), I expect the page to open in a seperate browser
-* I expect feedback when submitting the contact form that the form has been submitted correctly
-* I expect that the navigation links work properly so that is takes me wherever I want to go
-* Clear info about location 
-* Website is in line with the customer's journey
+* I expect that the website looks clean, and that it it easy to understand the information on the website
+* I expect that the navigation links work properly, so i am taken, where they say they will take me
+* I expect to quickly understand what the website is about, and what i can do with it
+* I expect it to be easy to get in contact with the organization, if i have any questions
+* I expect to be able to easily navigate around on any device
 
 [Back to Top](#table-of-contents)
 
 <a></a>
 ### **Design Choices**
-As the property is located in the middle of the nature, I made all my design choices based on natural colors & elements.
-I have used [Coolors](https://coolors.co/ "Coolors.co") and [Color Hunt](https://colorhunt.co/) to come up with a color scheme that fits the overall feeling of nature.
+As Ways target youth that want to travel out in Europe, i have tried to keep the colors light and with many colors. Ways already have a [logo](assets/images/ways-logo.png " logo"), and i will use the same colors, as in the logo throughout the side. The colors are mostly used as dividers and details, as the website will be kept clean in a nice white color.  
+
+I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of Ways as a brand. 
 
 <a></a>
 #### Fonts
-In order to find appropriate fonts for my website, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
-For the overall content I have decided to use the [Fanwood Text](https://fonts.google.com/specimen/Fanwood+Text?query=fanw "Google fonts: Fanwood Text") font. In my opinion this font is easy to read and visually appealing.
-For my headings I decided to go with a different font in order to make them stand out from the main content. The font I chose for this, is the [Eagle Lake](https://fonts.google.com/specimen/Eagle+Lake?query=eagle "Google Fonts: Eagle Lake") font.
-This is a calligraphic font that highlights to heading and gives it a more personal feeling. 
+In order to find the fonts that best fit with Ways as a brand, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
+For the overall content I have decided to use the [Montserrat](https://fonts.google.com/specimen/Montserrat?query=monts "Google fonts: Montserrat") font. This font is very neutral, and gives a clean and easy readable text. 
+I have chosen a different font for my headings, as i want them to stand out in relation to the rest of the text. The font I chose for this, is the [Cairo](https://fonts.google.com/specimen/Cairo?query=cairo "Google Fonts: Cairo") font.
+The Cairo font is not very far visually from the Montserrat font, but enough to make it stand out as different. 
 
 <a></a>
 #### Icons
-I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons that I chose are self explanatory and are in line with the overall feeling of the website.
-I will make sure that the icons are styled according to the website. I will use some icons to make the website more visually appealing but not to overtake the content.
-The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
+I have used icons from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons fit with the corresponding features that the users of the website are to understand. The visual aspect will make it easier to make a fast intepretation of what the text is about.
+I will make sure that the icons are styled according to the website. The icons will act as a supplement to the text. I will keep them small and clean to not overtake the text, as that is not the intention. 
 
 <a></a>
 #### Colors
-As mentioned before, I based my color scheme on the natural aspect of the property. 
+The color scheme is based on [Ways logo](assets/images/ways-logo.png "Ways logo"). I will emplement the same colors on the website as there are used in the logo. 
 You can view my color scheme [here](https://colorhunt.co/palette/193637).
 Below I will explain more why I choose the various colors and for what I will be using them.
 
