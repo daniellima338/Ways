@@ -119,9 +119,9 @@ This way my content will be easily readable.
 
 <a></a>
 #### Structure
-I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. 
-Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
-As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
+The website structure is built with [Bootstrap](https://getbootstrap.com/).
+Bootstrap provides content for both CSS and JavaScript, as functionality with both is important.
+As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile. This also go hand in hand with the target group of Ways, who are young people. They will most likely be using mobiles rather than desktop. 
 
 [Back to Top](#table-of-contents)
 
@@ -129,8 +129,8 @@ As Bootstrap is designed for mobile first, I will be certain that my website fun
 <a></a>
 ## **Wireframes**
 I have decided to use [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
-First I created a basic wireframe for desktop and later on for tablet and mobile. 
-For my website I have decided to go for a 1 page website which suits more with the current trends. 
+First I created a wireframe for mobile, as the approach is mobile first. Thereafter wireframes for desktop and tablets. 
+For my website I have decided to go for a 1 page, as that keeps up with current trends. But it is also to suit the target group, as young people do not want to go through many steps. 
 The website will be easy to navigate by using the navigation bar or by scrolling down the page. 
 
 You can find my wireframes below:
@@ -152,48 +152,39 @@ You can find my wireframes below:
 
 #### Navigation
 For the navbar I have used Boostrap to create a responsive navbar. 
-I have implemented as well the hamburger icon for mobile devices to be more user-friendly. 
-In order to navigate more easilty through the site, I have implemented to scroll spy option from bootstrap to let the user exactly know where they are located on the site. 
-For this to work properly I have fixed the navbar on the top of the page.
+There is a Logo in the left side of the nav-bar that will always bring you back to the top. 
+For the user to easily navigate through the site i have fixed each menu point to the place on the site it corresponds to and fixed the nav bar to the top. In this way the user can always just push the tab in the nav bar, when they wish to find something.
 
 
 #### Hero Image
 
-I have decided to implement a hero image which spreads over 100% width of the screen. In order to make the user curious about what follows next, I decided to set the height at 80vh so show a little peek of what comes next.
-The image responds well when viewing on desktop, tablet and mobile.
+I have decided to implement a hero image which spreads over 100% width of the screen. The Hero image is a photo from a project of Ways, in this way showcasing the projects Ways stand for. 
+The image will be responsive on desktop and tablet, also filling out 100% of the screen there.
 
 #### Welcome Section
 
-Here I used the grid from Bootstrap to create 3 colums on desktop view which turn into full width on mobile devices. 
+Here I used the grid from Bootstrap to create 3 colums on desktop view. On mobile they change into 3 different sections, and on tablet one of them will be hidden.
 
-#### Tree Houses Section
+#### About us Section
 
-Here I also worked with the grid which was a bit more challenging. I implement 4 pictures who show all next to each other on desktop. 
-On Tablet I have decided to hide 1 picture and on mobile I decided to hide 2 of the pictures and only show them after the introduction text of the tree houses.
-In order to accomplish this, I used display: none and display: block when creating the columns. 
+(missing)
 
-For the price section, I have a used a responsive pricing model instead of the normal table in bootstrap. 
-I have worked with icons here to really show the difference between the 3 pricing models. 
+#### Meet the team
 
-Under the pricing model I have inserted a button which opens a modal with the current promotions. 
-
-#### Gallery
-
-For the gallery I have created a class which contains all the settings for position, size and height. 
+For this section i have used the bootstrap grid to make 5 columns that will all host one team member. in each section there will be a picture and a title of the person.
 Every image also got an ID where I added the background-image and in some cases I overwrote the position to be more appealing. 
-I decided to not go with my original design like written in my wireframes as I had the feeling the images looked nicer having a full width on mobile instead 50%.
 
 #### Testimonials
 
-Here I also worked with the grid from bootstrap and as well some icons to make the section more visually appealing. 
-Under the testimonials I have added the links to social media using icons which opens in a separate tab in the browers. 
-This to make the website more user friendly.
+Here I also worked with the grid from bootstrap, creating 3 columns where there will each be a picture and a quote.
+In a future update there will be a link to the blog the testimonial is from. 
 
 #### Contact 
-At the contact section I have provided contact and location details on the left. 
-On the right I implemented a form which they can fill in if they would like to get in contact with the owners. 
-Below the form there is a submit button which also triggers a modal to open up which gives feedback to the user that the form has been successfully submitted.
+At the contact there will be a form to reach out to us at the organisation, if anyone has any questions. 
+Below the form there is a submit button, which also triggers a modal to open up which gives feedback to the user that the form has been successfully submitted.
 
+#### Footer
+In the footer there will be a link back to the top of the page. Furthermore there will be links to all the social accounts of the organisation.
 
 <a></a>
 ### **Features to be implemented**
