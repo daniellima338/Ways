@@ -111,7 +111,7 @@ Below I will explain more why I choose the various colors and for what I will be
 * #56A44C: This color will be used as my primary background-color. It is the green color from the Ways logo. It will give a nice streamlined effect throughout the website. 
 * #FFF5F5: This is a suttle white color. It will be used for the text throughout the page. It will stand out well from the green background.
 * #80BA77: This color will be used as text color for the overall contact of the page. It's a mint cream (off white) which stands out well to the background colors that I have chosen.
-* #61AEBE: This is a slightly lighter Green than #56A44C and will be used in various places throughout the page.
+* #61AEBE: This is a slightly lighter Green than #56A44C and will be used in various places throughout the page, as a substitute for #56A44C.
 * #FAE94D: This is a sweet Yellow color that will be used as a divider throughout the page. It also links back to the logo of Ways. 
 
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
@@ -167,17 +167,13 @@ Here I used the grid from Bootstrap to create 3 colums on desktop view. On mobil
 
 #### About us Section
 
-(missing)
+The about us section will have a circled image in the middle with 6 setences around it, that illustrates what kind of organsiation Ways is. 
 
 #### Meet the team
 
 For this section i have used the bootstrap grid to make 5 columns that will all host one team member. in each section there will be a picture and a title of the person.
-Every image also got an ID where I added the background-image and in some cases I overwrote the position to be more appealing. 
+Every image also got an ID where I added the background-image and in some cases I overwrote the position to be more appealing. On tablets only 4 people of the team will be visible and be in two rows. On Mobile the team will be presented one at a time, as the user scrolls down the page. 
 
-#### Testimonials
-
-Here I also worked with the grid from bootstrap, creating 3 columns where there will each be a picture and a quote.
-In a future update there will be a link to the blog the testimonial is from. 
 
 #### Contact 
 At the contact there will be a form to reach out to us at the organisation, if anyone has any questions. 
@@ -189,7 +185,11 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 <a></a>
 ### **Features to be implemented**
 
-(missing)
+* Gallery with pictures from various projects 
+* Event calendar with dates of future projects
+* interactive map with coming projects and former projects on
+* A blog page with stories from former projects 
+* A news page, with news relating to Ways and Erasmus + projects in general.
 
 [Back to Top](#table-of-contents)
 
@@ -216,7 +216,7 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-* 
+
 
 
 [Back to Top](#table-of-contents)
@@ -344,11 +344,10 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 ### Content - Media - Inspiration
 
-I have used the following websites to gather ideas and information for the overall content of my website: 
+As Ways already have a [website](https://waysforyouth.dk/), i have used the website for inspiration. Furthermore i have drawn inspiration from the 3 miniprojects done on the Code Institute course, before this project. 
+Lastly i have drawn inspiration for my README file from [AnoukSmet](https://github.com/AnoukSmet/Naturazy), as the template has been drawn from her project. 
 
-* (Missing)
-
-I have used [Unsplash](https://unsplash.com/) for my hero image and the picture of the owners.
+Pictures are from Ways projects and Ways have the right to all of them. 
 
 ### Acknowledgements
 
