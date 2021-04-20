@@ -1,6 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* ------------------Header */
+
+/*---------------------- Navbar */
 body {
-    font-family: "montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
+}
+
+.logo {
+    background: url("../images/ways-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+/* ------------------hero image */
+
+.hero-image {
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+/* ------------------features */
+
+.features {
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+
+/* ---------------------about us */
+
+.about-section {
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+}
+
+/* ---------------------meet the team */
+
+.meet-the-team-section {
+    height: 300px;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+/* ----------------------contact form */
+
+.contact-form {
+    height: 300px;
+    width: 100%;
+    background-color: brown;
+}
+
+/* -----------------------Footer */
+
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
