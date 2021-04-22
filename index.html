@@ -18,183 +18,208 @@
 <body>
     <!-- header -->
     <header>
-        <div class="row">
-            <a class="col-md-2 logo container-fluid" href="index.html"></a>
+        <a class="logo" href="index.html"></a>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Need to figure out how to make my log work-->
+            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Meet Our Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto d-flex">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Meet Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         </div>
     </header>
     <!-- /.header -->
+    <hr>
 
-    <!-- Callout -->
-    <section class="callout">
+    <div class="container-fluid">
+        <!-- hero image -->
         <div class="row">
-            <div class="col">
-                <h1>Travel the world and make friendships along the way</h1>
-                <p>try an experience of a lifetime</p>
+            <div class="col-12">
+                <section id="hero-image">
+                </section>
+                <!-- /.hero image -->
+
+                <!-- Callout -->
+                <section class="callout text-center">
+                    <h1>Travel the world and make friendships along the way</h1>
+                    <p class="lead">try an experience of a lifetime</p>
+                    <button class="btn btn-success">Hear More</button>
+                </section>
             </div>
         </div>
-    </section>
-    <!-- /.Callout -->
+        <!-- /.Callout -->
 
-    <hr>
+        <hr>
 
-    <!-- Features section -->
-    <section class="features">
-        <h2 class="text-uppercase">Experience</h2>
-        </div>
-        <div class="feature">
-            <h3 class="text-uppercase">expand your competences</h3>
-            <p>
-                We live in a world that is constantly changing, being presented with complex,
-                multicultural issues almost on a daily basis.
-                WAYS helps strengthen young peoples intercultural and communication skills,
-                as well as many other much needed competences.
-            </p>
-        </div>
-        <div class="feature">
-            <h3 class="text-uppercase">Extend Your Network</h3>
-            <p>
-                Create new relations with people from all over the world, and form friendships that
-                will last for the rest of your life.
-                Since 2015, WAYS have provided intercultural learning experiences
-                for hundreds of young people in more than 30 countries.
-            </p>
-        </div>
-        <div class="feature">
-            <h3 class="text-uppercase">Explore The World</h3>
-            <p>
-                WAYS has several years of experience with international youth projects,
-                both in Europe, the Middle East & North Africa.
-                With us, you won’t just be travelling,
-                you will also gain whole new perspectives that would
-                not be possible as a regular tourist or backpacker.
-            </p>
-    </section>
-    <!-- /.Features section -->
-
-    <hr>
-
-    <!-- About section -->
-    <section class="about-section">
-        <h2>About Ways</h2>
-
-        <div>
-            <div id="right-side">
-                <h2>Line 1
-                    <!-- insert fontawesome icon -->
-                </h2>
+        <!-- Features section -->
+        <section class="features row">
+            <div class="col-6 offset-3 text-center">
+                <h2 class="text-uppercase">Experience</h2>
             </div>
 
-            <div id="right-side">
-                <h2>Line 2
-                    <!-- insert fontawesome icon -->
-                </h2>
+            <div class="row text-center">
+                <div class="feature col-4">
+                    <h3 class="text-uppercase">expand your competences</h3>
+                    <p>
+                        We live in a world that is constantly changing, being presented with complex,
+                        multicultural issues almost on a daily basis.
+                        WAYS helps strengthen young peoples intercultural and communication skills,
+                        as well as many other much needed competences.
+                    </p>
+                </div>
+                <div class="feature col-4">
+                    <h3 class="text-uppercase">Extend Your Network</h3>
+                    <p>
+                        Create new relations with people from all over the world, and form friendships that
+                        will last for the rest of your life.
+                        Since 2015, WAYS have provided intercultural learning experiences
+                        for hundreds of young people in more than 30 countries.
+                    </p>
+                </div>
+                <div class="feature col-4">
+                    <h3 class="text-uppercase">Explore The World</h3>
+                    <p>
+                        WAYS has several years of experience with international youth projects,
+                        both in Europe, the Middle East & North Africa.
+                        With us, you won’t just be travelling,
+                        you will also gain whole new perspectives that would
+                        not be possible as a regular tourist or backpacker.
+                    </p>
+                </div>
             </div>
+        </section>
 
-            <div id="right-side">
-                <h2>Line 3
-                    <!-- insert fontawesome icon -->
-                </h2>
+        <!-- /.Features section -->
+        <hr>
+
+        <!-- About section -->
+        <section class="about-section">
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <h2 class="text-center">About Ways</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <div class="right-side">
+                        <h2>Line 1
+                            <!-- insert fontawesome icon -->
+                        </h2>
+                    </div>
+
+                    <div class="right-side">
+                        <h2>Line 2
+                            <!-- insert fontawesome icon -->
+                        </h2>
+                    </div>
+
+                    <div class="right-side">
+                        <h2>Line 3
+                            <!-- insert fontawesome icon -->
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="about-image col-4"></div>
+
+                <div class="col-4 text-center">
+                    <div class="left-side">
+                        <h2>Line 4
+                            <!-- insert fontawesome icon -->
+                        </h2>
+                    </div>
+
+                    <div class="left-side">
+                        <h2>Line 5
+                            <!-- insert fontawesome icon -->
+                        </h2>
+                    </div>
+                    <div class="left-side">
+                        <h2>Line 6
+                            <!-- insert fontawesome icon -->
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.About section -->
+
+        <hr>
+
+        <!-- Meet the team section -->
+        <section class="meet-the-team-section row">
+            <div class="team-member col-2 offset-1">
+                <div id="image-1"></div>
+                <h3>Thomas Brisson</h3>
+                <p>Chairman & Organization Manager</p>
+            </div>
+            <div class="team-member col-2">
+                <div id="image-2"></div>
+                <h3>Daniel Lima</h3>
+                <p>Vice Chairman & Overall Coordinator</p>
+            </div>
+            <div class="team-member col-2">
+                <div id="image-3"></div>
+                <h3>Veronika Proks</h3>
+                <p>Communications Officer & SoMe Coordinator</p>
+            </div>
+            <div class="team-member col-2">
+                <div id="image-3"></div>
+                <h3>Dennis Laumark</h3>
+                <p>Project Manager</p>
+            </div>
+            <div class="team-member col-2">
+                <div id="image-3"></div>
+                <h3>Albert Sølvhøi</h3>
+                <p>Project Manager & Facilitator</p>
+            </div>
+        </section>
+        <!-- /.Meet the team section -->
+
+        <hr>
+
+        <!-- Contact form section -->
+        <div class="contact-form">
+            <div class="row">
+                <div class="col-6">
+
+                </div>
             </div>
         </div>
-        <div>
-            <div id="left-side">
-                <h2>Line 4
-                    <!-- insert fontawesome icon -->
-                </h2>
-            </div>
-
-            <div id="left-side">
-                <h2>Line 5
-                    <!-- insert fontawesome icon -->
-                </h2>
-            </div>
-            <div id="left-side">
-                <h2>Line 6
-                    <!-- insert fontawesome icon -->
-                </h2>
-            </div>
-        </div>
-        <div class="about-image"></div>
-    </section>
-    <!-- /.About section -->
-
-    <hr>
-
-    <!-- Meet the team section -->
-    <section class="meet-the-team-section">
-        <div class="team-member">
-            <div id="image-1"></div>
-            <h3>Thomas Brisson</h3>
-            <p>Chairman & Organization Manager</p>
-        </div>
-        <div class="team-member">
-            <div id="image-2"></div>
-            <h3>Daniel Lima</h3>
-            <p>Vice Chairman & Overall Coordinator</p>
-        </div>
-        <div class="team-member">
-            <div id="image-3"></div>
-            <h3>Veronika Proks</h3>
-            <p>Communications Officer & SoMe Coordinator</p>
-        </div>
-        <div class="team-member">
-            <div id="image-3"></div>
-            <h3>Dennis Laumark</h3>
-            <p>Project Manager</p>
-        </div>
-        <div class="team-member">
-            <div id="image-3"></div>
-            <h3>Albert Sølvhøi</h3>
-            <p>Project Manager & Facilitator</p>
-        </div>
-    </section>
-    <!-- /.Meet the team section -->
-
-    <hr>
-
-    <!-- Contact form section -->
-    <div class="contact-form">
-        <div class="row">
-            <div class="col">
-
-            </div>
-        </div>
+        <!-- /.Contact form section -->
     </div>
-    <!-- /.Contact form section -->
 
     <hr>
 
     <!-- Footer -->
     <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col">
-                <a href="#">Home</a>
+        <div class="row">
+            <div class="col-6 offset-3 text-center">
+                <a href=" #">Home</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/waysforyouth/" target="_blank">
