@@ -18,7 +18,8 @@ body {
 }
 
 /* ------------------hero image */
-.callout {
+.callout-container {
+    height: 100vh;
     text-transform: uppercase;
     background: url("../images/hero-image.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
