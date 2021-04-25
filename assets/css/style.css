@@ -22,7 +22,7 @@ body {
     height: 100vh;
     /* vh stand for viewport height */
 
-    background: url(../images/whisky-photo.jpg) no-repeat bottom right fixed;
+    background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
