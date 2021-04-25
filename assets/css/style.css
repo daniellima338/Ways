@@ -13,60 +13,33 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    width: 100%;
+    height: 50px;
+    width: 50px;
 }
 
 /* ------------------hero image */
+.callout {
+    text-transform: uppercase;
+    background: url("../images/hero-image.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-.hero-image {
-    height: 300px;
-    width: 100%;
-    background-color: blueviolet;
 }
 
 /* ------------------features */
-
-.features {
-    height: auto;
-    width: 100%;
-    background-color: aqua;
+.features-container {
+    height: 100vh;
 }
 
 /* ---------------------about us */
-
-.about-section {
-    height: auto;
-    width: 100%;
-    background-color: beige;
-}
+.about-section-container {}
 
 /* ---------------------meet the team */
-
-.meet-the-team-section {
-    height: auto;
-    width: 100%;
-    background-color: chartreuse;
-}
+.meet-the-team-container {}
 
 /* ----------------------contact form */
-
-.contact-form {
-    height: 300px;
-    width: 100%;
-    background-color: brown;
-}
+.contact-form-container {}
 
 /* -----------------------Footer */
-
-
-.container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-links {
-    text-align: center;
-}
