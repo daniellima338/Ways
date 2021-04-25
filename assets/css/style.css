@@ -20,13 +20,29 @@ body {
 /* ------------------hero image */
 .callout-container {
     height: 100vh;
-    text-transform: uppercase;
-    background: url("../images/hero-image.jpg") no-repeat bottom right fixed;
+    /* vh stand for viewport height */
+
+    background: url(../images/whisky-photo.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This is used to move a box to the middle of the page  */
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* ------------------features */
@@ -35,12 +51,18 @@ body {
 }
 
 /* ---------------------about us */
-.about-section-container {}
+.about-section-container {
+    height: 100vh;
+}
 
 /* ---------------------meet the team */
-.meet-the-team-container {}
+.meet-the-team-container {
+    height: 100vh;
+}
 
 /* ----------------------contact form */
-.contact-form-container {}
+.contact-form-container {
+    height: 100vh;
+}
 
 /* -----------------------Footer */
