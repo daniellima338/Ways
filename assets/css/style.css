@@ -1,11 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* ------------------Header */
-
-/*---------------------- Navbar */
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
+    color: #FFF5F5;
+    background-color: #56A44C;
+}
+
+/* ------------------Header */
+
+/*---------------------- Navbar */
+#nav {
+    background-color: #80BA77;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF5F5;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FFF5F5;
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFF5F5;
+    border-color: #FFF5F5;
 }
 
 .logo {
@@ -17,10 +39,9 @@ body {
     width: 50px;
 }
 
-/* ------------------hero image */
+/* ------------------callout */
 .callout-container {
     height: 100vh;
-    /* vh stand for viewport height */
 
     background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -45,24 +66,44 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* ------------------features */
-.features-container {
-    height: 100vh;
+/**----------------------- Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
 }
+
+.jumbotron-header {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    color: #FFF5F5;
+}
+
+.lead {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    color: #FFF5F5;
+    font-size: 28px;
+}
+
+/*** -------------------- block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #b9d8b4;
+}
+
+/* ------------------features */
+.features-container {}
 
 /* ---------------------about us */
-.about-section-container {
-    height: 100vh;
-}
+.about-section-container {}
 
 /* ---------------------meet the team */
-.meet-the-team-container {
-    height: 100vh;
-}
+.meet-the-team-container {}
 
 /* ----------------------contact form */
-.contact-form-container {
-    height: 100vh;
-}
+.contact-form-container {}
 
 /* -----------------------Footer */
