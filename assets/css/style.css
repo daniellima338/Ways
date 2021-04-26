@@ -119,7 +119,29 @@ body {
 }
 
 /* ---------------------about us */
-.about-section-container {}
+.about-section-image {
+    height: 80vh;
+
+    background: url(../images/photo-1.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This is used to move a box to the middle of the page  */
+
+    position: relative;
+}
+
+.blur {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
 
 /* ---------------------meet the team */
 .meet-the-team-container {}
