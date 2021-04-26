@@ -95,7 +95,28 @@ body {
 }
 
 /* ------------------features */
-.features-container {}
+
+.white-background {
+    background: white;
+    background-position: center;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+
+    position: relative;
+
+    align-items: center;
+}
+
+.ways-logo {
+    background-image: url("../images/ways-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-top: 5px;
+}
 
 /* ---------------------about us */
 .about-section-container {}
