@@ -3,16 +3,13 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    color: #FFF5F5;
-    background-color: #56A44C;
+    color: #56A44C;
+    background-color: #FFF5F5;
 }
 
 /* ------------------Header */
 
 /*---------------------- Navbar */
-#nav {
-    background-color: #80BA77;
-}
 
 .navbar-light .navbar-nav .nav-link {
     color: #FFF5F5;
