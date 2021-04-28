@@ -4,164 +4,79 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #FFF5F5;
-    background-color: #56A44C;
 }
 
 /* ------------------Header */
 
 /*---------------------- Navbar */
-#nav {
-    background-color: #56A44C;
-}
 
-.navbar-light .navbar-nav .nav-link {
-    color: #FFF5F5;
-}
-
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #FFF5F5;
-}
-
-.navbar-light .navbar-toggler {
-    color: #FFF5F5;
-    border-color: #FFF5F5;
-}
-
-.logo {
-    background: url("../images/ways-logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-}
-
-/* ------------------callout */
-.callout-container {
-    height: 80vh;
-
-    background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* This is used to move a box to the middle of the page  */
-
-    position: relative;
-}
-
-.opaque-overlay {
-    position: absolute;
+.navalert-container {
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/**----------------------- Jumbotron */
-
-.jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron-header {
-    font-family: "Cairo", sans-serif;
-    font-weight: 700;
-    color: #FFF5F5;
-}
-
-.lead {
-    font-family: "Cairo", sans-serif;
-    font-weight: 700;
-    color: #FFF5F5;
-    font-size: 28px;
-}
-
-/*** -------------------- block dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #b9d8b4;
-}
-
-/* ------------------features */
-
-.white-background {
-    background: white;
-    background-position: center;
-    height: auto;
-    width: auto;
-    border-radius: 50%;
-
-    position: relative;
-
-    align-items: center;
-}
-
-.ways-logo {
-    background-image: url("../images/ways-logo.png");
-    background-position: center;
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    border-top: 5px;
-}
-
-/* ---------------------about us */
-.about-section-image {
-    height: 100vh;
-
-    background: url(../images/photo-1.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* This is used to move a box to the middle of the page  */
-
-    position: relative;
-}
-
-.blur {
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
-}
+    padding-left: 0;
+    padding-right: 0;
 
 
-/* ---------------------meet the team */
-.meet-our-team-container {}
+    .logo {
+        background: url("../images/ways-logo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50px;
+        width: 50px;
+    }
 
-/* ----------------------contact form */
-.contact-form-container {
-    height: 100vh;
+    /* ------------------callout */
+    .callout-container {}
 
-    background: url(../images/contact-form-image.jpeg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* This is used to move a box to the middle of the page  */
 
-    position: relative;
-}
+    /**----------------------- Jumbotron */
 
-/* -----------------------Footer */
+
+
+
+
+    /*** -------------------- block dividers */
+
+
+
+    /* ------------------features */
+
+    .white-background {
+        background: white;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .white-background-nav-logo {
+        background: white;
+        height: auto;
+        width: auto;
+        border-radius: 50%;
+    }
+
+    .ways-logo {
+        background-image: url("../images/ways-logo.png");
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        border-top: 5px;
+    }
+
+    /* ---------------------about us */
+
+
+
+
+
+    /* ---------------------meet the team */
+    .meet-our-team-container {}
+
+    /* ----------------------contact form */
+
+
+    /* -----------------------Footer */
