@@ -1,10 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
 body {
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    color: #FFF5F5;
+    font-weight: 400;
+    color: #56A44C;
 }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(4, 36, 11, 0.7);
+}
+
+h1 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+    color: #56A44C;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    color: #56A44C;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    color: #56A44C;
+    font-size: 24px;
+}
+
+
+
+
 
 /* ------------------Header */
 
@@ -15,68 +50,148 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0;
+}
 
+.logo {
+    background: url("../images/ways-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
 
-    .logo {
-        background: url("../images/ways-logo.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 50px;
-        width: 50px;
-    }
+/* ------------------callout */
+.callout-container {
+    height: 100vh;
+    width: 100%;
 
-    /* ------------------callout */
-    .callout-container {}
+    background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This is used to move a box to the middle of the page  */
 
+    position: relative;
+}
 
-    /**----------------------- Jumbotron */
-
-
-
-
-
-    /*** -------------------- block dividers */
-
-
-
-    /* ------------------features */
-
-    .white-background {
-        background: white;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-    }
-
-    .white-background-nav-logo {
-        background: white;
-        height: auto;
-        width: auto;
-        border-radius: 50%;
-    }
-
-    .ways-logo {
-        background-image: url("../images/ways-logo.png");
-        background-position: center;
-        background-size: cover;
-        height: 100px;
-        width: 100px;
-        margin: auto;
-        border-top: 5px;
-    }
-
-    /* ---------------------about us */
+.navbar-light .navbar-nav .nav-link {
+    color: #56A44C;
+    font-weight: bold;
+}
 
 
 
+/**----------------------- Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    color: #FFF5F5;
+}
+
+/*** -------------------- block dividers */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #ffc605;
+}
+
+/* ------------------features */
+
+.ways-logo {
+    background-image: url("../images/ways-logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.features-container {}
+
+/* ---------------------about us */
+
+.about-section-image {
+    height: 100vh;
+    width: 100%;
+
+    background: url(../images/photo-1.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This is used to move a box to the middle of the page  */
+
+    position: relative;
+}
+
+.about-us p {
+    color: white;
+}
 
 
-    /* ---------------------meet the team */
-    .meet-our-team-container {}
 
-    /* ----------------------contact form */
+/* ---------------------meet the team */
+.meet-our-team-container {}
+
+/* ----------------------contact form */
+.contact-form-image {
+    height: 100vh;
+
+    background: url(../images/contact-form-image.jpeg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This is used to move a box to the middle of the page  */
+
+    position: relative;
+}
+
+/* -----------------------Footer */
+
+.social-links li a i {
+    font-size: 36px;
+    letter-spacing: 6px;
+    color: #56A44C;
+}
 
 
-    /* -----------------------Footer */
+.footer-header {
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #56A44C;
+}
+
+
+.footer {
+    height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+}
