@@ -103,19 +103,21 @@ I will make sure that the icons are styled according to the website. The icons w
 <a></a>
 #### Colors
 The color scheme is based on [Ways logo](assets/images/ways-logo.png "Ways logo"). I will emplement the same colors on the website as there are used in the logo. 
-You can view my color scheme [here](https://coolors.co/56a44c-80ba77-61aebe-ffed4b-fff5f5).
+You can view my color scheme [here](assets/images/ways-colors.png).
 Below I will explain more why I choose the various colors and for what I will be using them.
 
-![Color Scheme](assets/images/color-scheme.png)
+![Color Scheme](assets/images/ways-colors.png)
 
-* #56A44C: This color will be used as my primary background-color. It is the green color from the Ways logo. It will give a nice streamlined effect throughout the website. 
-* #FFF5F5: This is a suttle white color. It will be used for the text throughout the page. It will stand out well from the green background.
-* #80BA77: This is a slightly creamier green than the primary background color. This will be use for the navigation bar. 
-* #b9d8b4: This is a slightly lighter Green than #56A44C and will be used as a divider throughout the page.
-<!-- * #FAE94D: This is a sweet Yellow color that will be used as a divider throughout the page. It also links back to the logo of Ways.  Am i going to use this?-->
+* #417A3D: This will be used as the color for the headings. It ties back to Ways logo and gives a nice contrast to the white background.
+* #56A44C: For the paragraphs i have used a slightly lighter green that also ties back to the logo of Ways. this keeps consistency, but still marks a difference between headings and paragraphs.
+* #FFC605: As a divider throughout the page, i have used a smooth yellow, which also ties back into Ways Logo. The yellow color has a nice contrast, and therefore act great as a divider. 
+* #F7F6F6: For the background i have used a slightly red shade of white. This is mostly to give a bigger contrast between the green color of the text and the background. 
 
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
 This way my content will be easily readable. 
+
+## **Changes made to color scheme** 
+While making the page, it occured that the initial color scheme did not fit well in relation to contrast and overall feel. Colors weere therefore changed, and the colors in this README file are the colors that are represented on the site.
 
 <a></a>
 #### Structure
@@ -133,13 +135,16 @@ First I created a wireframe for mobile, as the approach is mobile first. Thereaf
 For my website I have decided to go for a 1 page, as that keeps up with current trends. But it is also to suit the target group, as young people do not want to go through many steps. 
 The website will be easy to navigate by using the navigation bar or by scrolling down the page. 
 
+### **Changes made to wireframes** 
+Ways logo has been added to the features section, as it gives a good indication of who the organisation is, and it fit well in.
+
 You can find my wireframes below:
 
-### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Desktop Wireframe](wireframes/desktop_wireframe.png)
 
-### [Tablet Wireframe](wireframes/tablet-wireframe.png)
+### [Tablet Wireframe](wireframes/tablet_wireframe.png)
 
-### [Mobile Wireframe](wireframes/mobile-wireframe.png)
+### [Mobile Wireframe](wireframes/mobile_wireframe.png)
 
 [Back to Top](#table-of-contents)
 
@@ -172,7 +177,7 @@ The about us section will have a circled image in the middle with 6 setences aro
 #### Meet the team
 
 For this section i have used the bootstrap grid to make 5 columns that will all host one team member. in each section there will be a picture and a title of the person.
-Every image also got an ID where I added the background-image and in some cases I overwrote the position to be more appealing. On tablets only 4 people of the team will be visible and be in two rows. On Mobile the team will be presented one at a time, as the user scrolls down the page. 
+On tablets only 4 people of the team will be visible and be in two rows. On Mobile the team will be presented one at a time, as the user scrolls down the page. 
 
 
 #### Contact 
