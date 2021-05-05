@@ -66,6 +66,7 @@ h3 {
     height: 100vh;
     width: 100%;
 
+
     background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -85,7 +86,9 @@ h3 {
     font-weight: bold;
 }
 
-
+.navbar {
+    background-color: white;
+}
 
 /**----------------------- Jumbotron */
 
@@ -146,9 +149,40 @@ h3 {
     position: relative;
 }
 
-.about-us p {
+.about-section p {
     color: white;
 }
+
+.about-section-header {
+    color: white;
+}
+
+/* @media (min-width: 769px) {
+    .learning-opportunities {
+        position: relative;
+        left: 50%;
+        bottom: 50%;
+    }
+
+    .experience {
+        position: relative;
+        right: 50%;
+        bottom: 50%;
+    }
+
+    .creativety {
+        position: relative;
+        left: 50%;
+        margin-top: 50%;
+    }
+
+    .alternative-learning {
+        position: relative;
+        right: 50%;
+        margin-top: 50%;
+    }
+} */
+
 
 
 
@@ -171,6 +205,14 @@ h3 {
     /* This is used to move a box to the middle of the page  */
 
     position: relative;
+}
+
+.contact-section {
+    color: white;
+}
+
+.contact-section-header {
+    color: white;
 }
 
 /* -----------------------Footer */
