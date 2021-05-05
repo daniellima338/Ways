@@ -339,7 +339,13 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 <a></a>
 ## **Deployment**
 
-(missing)
+I deployed my Ways project website in the following way:
+
+* Logged in to my GitHub account and locating my repository
+* Clicked on the settings icon (near the top right of the page)
+* Scrolled down the page to locate the 'GitHub Pages' section
+* I selected 'Master branch' in the dropdown
+* This deployed my project to the URL: (https://daniellima338.github.io/Ways/)
 
 
 [Back to Top](#table-of-contents)
