@@ -127,7 +127,10 @@ h3 {
     position: relative;
 }
 
-.features-container {}
+.features-container {
+    height: 50vh;
+    width: 100%;
+}
 
 /* ---------------------about us */
 
@@ -157,17 +160,64 @@ h3 {
     color: white;
 }
 
-/* @media (min-width: 769px) {
+@media (min-width: 768px) {
+    .about-section .ways-logo {
+        position: relative;
+        bottom: 10%;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .left-side {
+        position: relative;
+        right: 60%;
+        justify-content: center;
+    }
+
+    .right-side-1 {
+        position: relative;
+        left: 20%;
+        bottom: 10%;
+        justify-content: center;
+    }
+
+    .right-side-2 {
+        position: relative;
+        left: 20%;
+        top: 10%;
+        justify-content: center;
+    }
+
+    .left-side-1 {
+        position: relative;
+        right: 20%;
+        bottom: 10%;
+        justify-content: center;
+    }
+
+    .left-side-2 {
+        position: relative;
+        right: 20%;
+        top: 10%;
+        justify-content: center;
+    }
+
+    .about-section-header {
+        position: relative;
+        bottom: 90%;
+    }
+
     .learning-opportunities {
         position: relative;
         left: 50%;
-        bottom: 50%;
+        bottom: 20%;
     }
 
     .experience {
         position: relative;
         right: 50%;
-        bottom: 50%;
+        bottom: 20%;
     }
 
     .creativety {
@@ -181,7 +231,9 @@ h3 {
         right: 50%;
         margin-top: 50%;
     }
-} */
+}
+
+
 
 
 
