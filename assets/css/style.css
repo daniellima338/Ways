@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html {
+    font-size: 62.5%;
+}
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -16,25 +19,29 @@ body {
     background-color: rgba(4, 36, 11, 0.7);
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 h1 {
     font-family: "Cairo", sans-serif;
     font-weight: 900;
     color: #4D9348;
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 h2 {
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     color: #4D9348;
-    font-size: 36px;
+    font-size: 3.6rem;
 }
 
 h3 {
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     color: #4D9348;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 
@@ -57,8 +64,8 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
 }
 
 /* ------------------callout */
@@ -87,7 +94,7 @@ h3 {
 }
 
 .navbar {
-    background-color: white;
+    background-color: #fff;
 }
 
 /**----------------------- Jumbotron */
@@ -104,8 +111,8 @@ h3 {
 
 /*** -------------------- block dividers */
 .block-divider {
-    width: 75px;
-    height: 5px;
+    width: 7.5rem;
+    height: 0.5rem;
     border: 0;
     background-color: #ffc605;
 }
@@ -115,30 +122,54 @@ h3 {
 .ways-logo {
     background-image: url("../images/ways-logo.png");
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    height: 10rem;
+    width: 10rem;
 }
 
 .center-content {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: relative;
 }
 
 .features-container {
-    height: 50vh;
+    height: 100vh;
     width: 100%;
 }
 
 /* ---------------------about us */
 
-.about-section-image {
+.about-section {
     height: 100vh;
     width: 100%;
 
     background: url(../images/photo-1.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    color: white;
+}
+
+.about-section-header {
+    color: white;
+}
+
+
+/* ---------------------meet the team */
+.meet-our-team {}
+
+/* ----------------------contact form */
+.contact-form-image {
+    height: 100vh;
+
+    background: url(../images/contact-form-image.jpeg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -152,20 +183,47 @@ h3 {
     position: relative;
 }
 
-.about-section p {
-    color: white;
+.contact-section {
+    color: #fff;
 }
 
-.about-section-header {
-    color: white;
+.contact-section-header {
+    color: #fff;
 }
+
+/* -----------------------Footer */
+
+.social-links li a i {
+    font-size: 3.6rem;
+    letter-spacing: 0.6rem;
+    color: #4D9348;
+}
+
+
+.footer-header {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #4D9348;
+}
+
+
+.footer {
+    height: 5vh;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+/* about section */
 
 @media (min-width: 768px) {
     .about-section .ways-logo {
         position: relative;
         bottom: 10%;
-        height: 200px;
-        width: 200px;
+        height: 20rem;
+        width: 20rem;
 
     }
 
@@ -231,61 +289,22 @@ h3 {
         right: 50%;
         margin-top: 50%;
     }
+
+    .features-container {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-
-
-
-
-
-/* ---------------------meet the team */
-.meet-our-team {}
-
-/* ----------------------contact form */
-.contact-form-image {
-    height: 100vh;
-
-    background: url(../images/contact-form-image.jpeg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* This is used to move a box to the middle of the page  */
-
-    position: relative;
-}
-
-.contact-section {
-    color: white;
-}
-
-.contact-section-header {
-    color: white;
-}
-
-/* -----------------------Footer */
-
-.social-links li a i {
-    font-size: 36px;
-    letter-spacing: 6px;
-    color: #4D9348;
-}
-
-
-.footer-header {
-    font-family: "Cairo", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #4D9348;
-}
-
-
-.footer {
-    height: 5vh;
-    width: 100%;
-    margin-top: 10px;
+@media (min-width: 992px) {
+    .meet-our-team .team-members {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
