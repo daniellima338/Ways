@@ -141,7 +141,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 <a></a>
 
-### **Design Choices**
+### Design Choices
 As Ways target youth that want to travel out in Europe, i have tried to keep the colors light and with many colors. Ways already have a [logo](assets/images/ways-logo.png "logo"), and i will use the same colors, as in the logo throughout the side. The colors are mostly used as dividers and details, as the website will be kept clean in a nice white color.  
 
 I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of Ways as a brand. 
@@ -195,7 +195,7 @@ As Bootstrap is designed for mobile first, I will be certain that my website fun
 
 --- 
 
-## **Wireframes**
+## Wireframes
 I have decided to use [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
 First I created a wireframe for mobile, as the approach is mobile first. Thereafter wireframes for desktop and tablets. 
 For my website I have decided to go for a 1 page, as that keeps up with current trends. But it is also to suit the target group, as young people do not want to go through many steps. 
@@ -203,7 +203,7 @@ The website will be easy to navigate by using the navigation bar or by scrolling
 
 <a></a>
 
-### **Changes made to wireframes** 
+### Changes made to wireframes 
 Ways logo has been added to the features section, as it gives a good indication of who the organisation is, and it fit well in.
 
 You can find my wireframes below:
@@ -220,11 +220,11 @@ You can find my wireframes below:
 
 ---
 
-## **Features**
+## Features
 
 <a></a>
 
-### **Existing Features**
+### Existing Features
 
 #### Navigation
 For the navbar I have used Boostrap to create a responsive navbar. 
@@ -270,7 +270,7 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 <a></a>
 
-### **Features to be implemented**
+### Features to be implemented
 
 * Gallery with pictures from various projects 
 * Event calendar with dates of future projects
@@ -283,11 +283,11 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 <a></a>
 
 
-## **Technologies used**
+## Technologies used
 
 <a></a>
 
-### **Languages**
+### Languages
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -295,7 +295,7 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 <a></a>
 
-### **Libraries & Frameworks**
+### Libraries & Frameworks
 
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
@@ -303,7 +303,7 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 <a></a>
 
-### **Tools**
+### Tools
 * [Git](https://git-scm.com/)
 * [GitPod](https://www.gitpod.io/)
 * [Balsamic](https://balsamiq.com/wireframes/)
@@ -314,13 +314,13 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 <a></a>
 
-## **bugs**
+## bugs
 
 [Back to Top](#table-of-contents)
 
 <a></a>
 
-## **Testing**
+## Testing
 (missing)
 
 
@@ -328,7 +328,7 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 <a></a>
 
-## **Deployment**
+## Deployment
 
 I deployed my Ways project website in the following way:
 
@@ -342,7 +342,7 @@ I deployed my Ways project website in the following way:
 
 <a></a>
 
-## **Credits**
+## Credits
 
 ### Content - Media - Inspiration
 
