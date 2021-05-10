@@ -1,6 +1,6 @@
 # **Ways**
 
-![Mokeup image]()
+![Mokeup Image](assets/images/mock-up.png)
 
 ## **Goal for this project** 
 
@@ -84,7 +84,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 <a></a>
 ### **Design Choices**
-As Ways target youth that want to travel out in Europe, i have tried to keep the colors light and with many colors. Ways already have a [logo](assets/images/ways-logo.png " logo"), and i will use the same colors, as in the logo throughout the side. The colors are mostly used as dividers and details, as the website will be kept clean in a nice white color.  
+As Ways target youth that want to travel out in Europe, i have tried to keep the colors light and with many colors. Ways already have a [logo](assets/images/ways-logo.png "logo"), and i will use the same colors, as in the logo throughout the side. The colors are mostly used as dividers and details, as the website will be kept clean in a nice white color.  
 
 I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of Ways as a brand. 
 
