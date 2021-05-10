@@ -1,4 +1,48 @@
 # **Ways**
+- [**Ways**](#--ways--)
+  * [**Goal for this project**](#--goal-for-this-project--)
+  * [**UX**](#--ux--)
+    + [**User Goals**](#--user-goals--)
+    + [**User Stories**](#--user-stories--)
+          + [A first time visitor to this website,](#a-first-time-visitor-to-this-website-)
+          + [As a returning visitor,](#as-a-returning-visitor-)
+    + [**Site owners Goals**](#--site-owners-goals--)
+    + [**User Requirements and Expectations**](#--user-requirements-and-expectations--)
+      - [Requirements](#requirements)
+      - [Expectations](#expectations)
+    + [**Design Choices**](#--design-choices--)
+      - [Fonts](#fonts)
+      - [Icons](#icons)
+      - [Colors](#colors)
+        * [Changes made to color scheme](#changes-made-to-color-scheme)
+      - [Structure](#structure)
+  * [**Wireframes**](#--wireframes--)
+    + [**Changes made to wireframes**](#--changes-made-to-wireframes--)
+    + [[Desktop Wireframe](wireframes/desktop_wireframe.png)](#-desktop-wireframe--wireframes-desktop-wireframepng-)
+    + [[Tablet Wireframe](wireframes/tablet_wireframe.png)](#-tablet-wireframe--wireframes-tablet-wireframepng-)
+    + [[Mobile Wireframe](wireframes/mobile_wireframe.png)](#-mobile-wireframe--wireframes-mobile-wireframepng-)
+  * [**Features**](#--features--)
+    + [**Existing Features**](#--existing-features--)
+      - [Navigation](#navigation)
+      - [Hero Image](#hero-image)
+      - [Welcome Section](#welcome-section)
+      - [About us Section](#about-us-section)
+      - [Meet the team](#meet-the-team)
+      - [Contact](#contact)
+      - [Footer](#footer)
+    + [**Features to be implemented**](#--features-to-be-implemented--)
+  * [**Technologies used**](#--technologies-used--)
+    + [**Languages**](#--languages--)
+    + [**Libraries & Frameworks**](#--libraries---frameworks--)
+    + [**Tools**](#--tools--)
+  * [**Testing**](#--testing--)
+  * [**Deployment**](#--deployment--)
+  * [**Credits**](#--credits--)
+    + [Content - Media - Inspiration](#content---media---inspiration)
+    + [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ![Mokeup Image](assets/images/mock-up.png)
 
@@ -16,10 +60,8 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 ---
 
-
-<a name="ux"></a>
 ## **UX**
-<a></a>
+
 ### **User Goals**
 
 * Offer information about Youth
@@ -30,9 +72,9 @@ If you have any feedback or questions, head over to my GitHub contact details an
 * Contact details should be easy to find
 * Form to ask questions to the organisation should be visible
 
-[Back to Top](#table-of-contents)
 
-<a></a>
+
+
 ### **User Stories**
 
 ###### A first time visitor to this website, 
@@ -53,17 +95,17 @@ If you have any feedback or questions, head over to my GitHub contact details an
    - I want to find the organisations social media accounts, to keep up to date with any communication they are running. 
    - I want to know who the key members are, and how to contact them.
 
-<a></a>
+
 ### **Site owners Goals**
 * Increase awareness about Erasmus+ Youth projects.
 * Increase participation.
 * Give young people an opportunity of a lifetime.
 
-[Back to Top](#table-of-contents)
 
-<a></a>
+
+
 ### **User Requirements and Expectations**
-<a></a>
+
 #### Requirements
 * Easy to navigate by using the navigation menu
 * useful information about youth projects
@@ -71,7 +113,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 * Easy way to contact the organisation
 * Clear information on how to contact, if users have any questions
 
-<a></a>
+
 #### Expectations 
 * When clicking on links (like social media), I expect the page to open in a seperate browser
 * I expect that the website looks clean, and that it it easy to understand the information on the website
@@ -80,27 +122,24 @@ If you have any feedback or questions, head over to my GitHub contact details an
 * I expect it to be easy to get in contact with the organization, if i have any questions
 * I expect to be able to easily navigate around on any device
 
-[Back to Top](#table-of-contents)
-
-<a></a>
 ### **Design Choices**
 As Ways target youth that want to travel out in Europe, i have tried to keep the colors light and with many colors. Ways already have a [logo](assets/images/ways-logo.png "logo"), and i will use the same colors, as in the logo throughout the side. The colors are mostly used as dividers and details, as the website will be kept clean in a nice white color.  
 
 I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of Ways as a brand. 
 
-<a></a>
+
 #### Fonts
 In order to find the fonts that best fit with Ways as a brand, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
 For the overall content I have decided to use the [Montserrat](https://fonts.google.com/specimen/Montserrat?query=monts "Google fonts: Montserrat") font. This font is very neutral, and gives a clean and easy readable text. 
 I have chosen a different font for my headings, as i want them to stand out in relation to the rest of the text. The font I chose for this, is the [Cairo](https://fonts.google.com/specimen/Cairo?query=cairo "Google Fonts: Cairo") font.
 The Cairo font is not very far visually from the Montserrat font, but enough to make it stand out as different. 
 
-<a></a>
+
 #### Icons
 I have used icons from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons fit with the corresponding features that the users of the website are to understand. The visual aspect will make it easier to make a fast intepretation of what the text is about.
 I will make sure that the icons are styled according to the website. The icons will act as a supplement to the text. I will keep them small and clean to not overtake the text, as that is not the intention. 
 
-<a></a>
+
 #### Colors
 The color scheme is based on [Ways logo](assets/images/ways-logo.png "Ways logo"). I will emplement the same colors on the website as there are used in the logo. 
 You can view my color scheme [here](assets/images/ways-colors.png).
@@ -116,24 +155,26 @@ Below I will explain more why I choose the various colors and for what I will be
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
 This way my content will be easily readable. 
 
-## **Changes made to color scheme** 
+
+##### Changes made to color scheme 
 While making the page, it occured that the initial color scheme did not fit well in relation to contrast and overall feel. Colors weere therefore changed, and the colors in this README file are the colors that are represented on the site.
 
-<a></a>
+
 #### Structure
 The website structure is built with [Bootstrap](https://getbootstrap.com/).
 Bootstrap provides content for both CSS and JavaScript, as functionality with both is important.
 As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile. This also go hand in hand with the target group of Ways, who are young people. They will most likely be using mobiles rather than desktop. 
 
-[Back to Top](#table-of-contents)
+
 
 --- 
-<a></a>
+
 ## **Wireframes**
 I have decided to use [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
 First I created a wireframe for mobile, as the approach is mobile first. Thereafter wireframes for desktop and tablets. 
 For my website I have decided to go for a 1 page, as that keeps up with current trends. But it is also to suit the target group, as young people do not want to go through many steps. 
 The website will be easy to navigate by using the navigation bar or by scrolling down the page. 
+
 
 ### **Changes made to wireframes** 
 Ways logo has been added to the features section, as it gives a good indication of who the organisation is, and it fit well in.
@@ -146,20 +187,17 @@ You can find my wireframes below:
 
 ### [Mobile Wireframe](wireframes/mobile_wireframe.png)
 
-[Back to Top](#table-of-contents)
 
 ---
 
-<a></a>
 ## **Features**
-<a></a>
+
 ### **Existing Features**
 
 #### Navigation
 For the navbar I have used Boostrap to create a responsive navbar. 
 There is a Logo in the left side of the nav-bar that will always bring you back to the top. 
 For the user to easily navigate through the site i have fixed each menu point to the place on the site it corresponds to and fixed the nav bar to the top. In this way the user can always just push the tab in the nav bar, when they wish to find something.
-
 
 #### Hero Image
 
@@ -187,7 +225,7 @@ Below the form there is a submit button, which also triggers a modal to open up 
 #### Footer
 In the footer there will be a link back to the top of the page. Furthermore there will be links to all the social accounts of the organisation.
 
-<a></a>
+
 ### **Features to be implemented**
 
 * Gallery with pictures from various projects 
@@ -196,18 +234,18 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 * A blog page with stories from former projects 
 * A news page, with news relating to Ways and Erasmus + projects in general.
 
-[Back to Top](#table-of-contents)
 
-<a></a>
+
+
 ## **Technologies used**
-<a></a>
+
 ### **Languages**
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-<a></a>
+
 
 ### **Libraries & Frameworks**
 
@@ -226,117 +264,10 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 [Back to Top](#table-of-contents)
 
-<a></a>
+
 ## **Testing**
 (missing)
 
-### Navigation bar
-
-* **Plan**    
-
-
-* **Implementation**   
-
-* **Test**    
-
-* **Result**    
-
-
-* **Verdict**    
-
-
-### Modals
-* **Plan**    
-
-
-* **Implementation**    
-
-
-* **Test**    
-
-
-* **Result**    
-
-
-* **Verdict**    
- 
-
-
-### Contact Form 
-* **Plan**    
-
-
-* **Implementation**    
-
-
-* **Test**    
-
-
-* **Result**    
-
-
-* **Verdict**    
-
-
-[Back to Top](#table-of-contents)
-
-### Bugs
-(missing)
-#### Form validation
-
-* **Bug**    
-
-
-* **Fix**        
-
-
-* **Verdict**    
-
-
-#### Hero Image
-
-* **Bug**    
- 
-
-* **Fix**    
-
-
-* **Verdict**    
-
-
-#### Hamburger dropdown menu
-
-* **Bug**    
-
-
-* **Verdict**   
-
-
-#### Icons
-
-* **Bug**    
-
-
-* **Fix**    
-
-
-* **Verdict**    
-
-
-#### Navigation menu on smaller screensizes 
-
-* **Bug**    
-
-
-* **Fix**        
-
-
-* **Verdict**    
-
-
-[Back to Top](#table-of-contents)
-
-<a></a>
 ## **Deployment**
 
 I deployed my Ways project website in the following way:
@@ -348,9 +279,9 @@ I deployed my Ways project website in the following way:
 * This deployed my project to the URL: (https://daniellima338.github.io/Ways/)
 
 
-[Back to Top](#table-of-contents)
 
-<a></a>
+
+
 ## **Credits**
 
 ### Content - Media - Inspiration
@@ -362,6 +293,6 @@ Pictures are from Ways projects and Ways have the right to all of them.
 
 ### Acknowledgements
 
-(missing)
+First and foremost i want to thanks [Ways](https://waysforyouth.dk/), for letting me borrow their name, pictures and general inspiration for this project. It has really been usefull to have all assets at hand, and not have to worry about copyrights. 
+Secondly i want to thank my mentor [Eventyret_mentor](https://github.com/Eventyret) for very valuable advice. Thank you for always being very constructive and easy going. 
 
-[Back to Top](#table-of-contents)
