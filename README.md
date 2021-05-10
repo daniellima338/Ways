@@ -21,6 +21,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 ## Table of contents 
 - [**Ways**](#--ways--)
   * [**Goal for this project**](#--goal-for-this-project--)
+  * [Table of contents](#table-of-contents)
   * [**UX**](#--ux--)
     + [**User Goals**](#--user-goals--)
     + [**User Stories**](#--user-stories--)
@@ -55,6 +56,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
     + [**Languages**](#--languages--)
     + [**Libraries & Frameworks**](#--libraries---frameworks--)
     + [**Tools**](#--tools--)
+  * [**bugs**](#--bugs--)
   * [**Testing**](#--testing--)
   * [**Deployment**](#--deployment--)
   * [**Credits**](#--credits--)
