@@ -18,7 +18,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 <a></a>
 
-
+## Table of contents 
 - [**Ways**](#--ways--)
   * [**Goal for this project**](#--goal-for-this-project--)
   * [**UX**](#--ux--)
