@@ -44,10 +44,6 @@ h3 {
     font-size: 2.4rem;
 }
 
-
-
-
-
 /* ------------------Header */
 
 /*---------------------- Navbar */
@@ -74,7 +70,8 @@ h3 {
     width: 100%;
 
 
-    background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
+    background: url(../images/hero-image.jpg) no-repeat bottom fixed;
+    background-position: 25%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -83,14 +80,18 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* This is used to move a box to the middle of the page  */
 
     position: relative;
 }
 
+.callout-container h2 {
+    color: #fff;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #4D9348;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .navbar {
@@ -142,7 +143,8 @@ h3 {
     height: 100vh;
     width: 100%;
 
-    background: url(../images/photo-1.jpg) no-repeat bottom right fixed;
+    background: url(../images/photo-1.jpg) no-repeat bottom fixed;
+    background-position: 30%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,9 +162,23 @@ h3 {
     color: white;
 }
 
+.about-section p {
+    font-size: 1.6rem;
+}
 
-/* ---------------------meet the team */
-.meet-our-team {}
+.about-section section p i {
+    font-size: 2.4rem;
+}
+
+/* ---------------------meet our team */
+
+
+.meet-our-team-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 5rem;
+}
 
 /* ----------------------contact form */
 .contact-form-image {
@@ -280,13 +296,13 @@ h3 {
     .creativety {
         position: relative;
         left: 50%;
-        margin-top: 50%;
+        margin-top: 40%;
     }
 
     .alternative-learning {
         position: relative;
         right: 50%;
-        margin-top: 50%;
+        margin-top: 40%;
     }
 
     .features-container {
