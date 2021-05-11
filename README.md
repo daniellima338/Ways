@@ -87,7 +87,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 ### **User Stories**
 
-###### A first time visitor to this website, 
+#### A first time visitor to this website, 
    - I want to easily navigate around and have a navigation that is easily understood.
    - I want a responsive website on any device, that gives me a good user experience. 
    - I want to understand what the organsation is doing, and how it can contribute to what i am looking for. 
@@ -97,7 +97,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
    - I want to be able to see upcoming events, and what the project is about. 
    
 
- ###### As a returning visitor, 
+ #### As a returning visitor, 
    - I want to see how i can contribute to the organisation. 
    - I want to quickly be able to see where i can sign up for a project. 
    - I want to know who to contact if i will go into collaboration with the organisation.
@@ -321,7 +321,98 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 <a></a>
 
 ## Testing
-(missing)
+
+### A first time visitor to this website
+
+#### User story: I want to easily navigate around and have a navigation that is easily understood. 
+* **Plan** 
+I want to create a website that is very basic to navigate. My first thought was to make use of the navigation menu to make everything easily accessible over different pages. After some thought and some suggestions, i changed my mind and the plan was then to create a rolling page, as all the information would then be gathered in one place, without the user having to go into different tabs. 
+
+* **Implementation**
+For the implimentation of the page i set-up the structure using bootstraps gridsystem. i have given every section an ID that is connected with the navigationbar. Therefore the site can easily be navigated through the menu, which is fixed to the top. 
+
+* **Test**    
+When scrolling down through the page, it is easy to navigate through the different sections with help of the navigation. The navigation is easily accesible and the user can go to every section of the page without any issues. 
+
+* **Result**  
+The navigation works as planned, and the user is able to navigate without any trouble. 
+
+* **Verdict**  
+The test has passed all the criteria and works like planned.
+
+
+#### User story: I want a responsive website on any device, that gives me a good user experience. 
+* **Plan** 
+The plan is to follow the resposiveness of the bootstrap framework. This will make the page responsive on every device and give the user a good feeling. 
+
+* **Implementation**  
+Too impliment it, i am using the bootstrap grid system. Within that the responsiveness is already built in. It should be working for every section. 
+
+* **Test** 
+The responsiveness is overall working well, but the container hieght did not match the expectations i had on all devices. Therefore i had to impliment unique viewport hieghts myself to parts of the website, and mediaquery it out.
+
+* **Result** 
+The viewport is as planned, and the overall respinsiveness of the site is working well. There is a small issue with the responsiveness of the meet-our-team section going from tablet to mobile. I did not have time to correct the issue, which has to do with the margin between the collumns. 
+
+* **Verdict** 
+The overall responsiveness of the page works very well, but there are small issues, that i have not been able to fix with the meet-our-team section. 
+
+#### User story: I want to understand what the organsation is doing, and how it can contribute to what i am looking for.
+* **Plan** 
+The user is able to see what Ways stand for, as well as understand what they can get out of going on a project with Ways. Here the About us section and Features section are very important.
+
+* **Implementation**
+Too make the user understand what Ways stand for, i have implimented the 3 core things a participant will get out travelling with Ways. For a user to want to interact with us, it is important that the user have the same values as Ways as an organisation. Therefore it has been important to showcase waht Ways stand for. Here the About Us section is very important. Furthermore the pictures are carefully chosen to let the users get an idea of the kind of projects they will participate on. 
+
+* **Test**  
+Running through the website, it gives a good flow that the user sees the features before anything else, to give them an idea about what they can acheive through Ways. Through testing i have found that the About Us section does not work in this regard, if each value is not put in bigger writting. Font-size have therefore been increased to 2.6rem. 
+
+* **Result** 
+The result of the work is a website with a good overview of the values and features Ways are able to provide. This will become even more clear when [further features](#Features to be implemented) are implimented. 
+
+* **Verdict**  
+The test has passed all the criteria and works like planned.
+
+#### User story: I want to see other peoples experiences with the organisation and what they have gotten out of it. 
+* **Plan** 
+The plan is to impliment features that will showcase this further down the line. At the moment the user will be able to see the users experience among hte background pictures, which are all from already established projects. Further down the line a gallery, blog and showcasing of past projects will be implimented. 
+
+* **Implementation** 
+For implimentation current photos on the page have been carefully selected to show the situations a participant can find themselves in. Furtherdown the line, the implimentation of a blog will be key, as it gives the past participants a voice, that the new participants can pick up. 
+
+* **Test**   
+For testing at the moment this User story is not fully complient with the users experience, as the users do not get a full view of the users experience. With the current sections the users are getting a overview of what they can get out of Ways and what Ways stand for. 
+
+* **Result**
+The result is a user that are missing a link. The user might still be inclined to push through to participate in a project, but it is less likely, without this user story fullfilled. 
+
+* **Verdict**    
+The test has passed all the criteria as planned, but will need further work to function properly. 
+
+#### User story: I want to understand what is demanded of me, if i make use of the organisation.
+* **Plan** 
+* **Implementation** 
+* **Test**   
+* **Result** 
+* **Verdict**   
+#### User story: I want to easily be able to contact the organisation, if i have any questions.
+* **Plan** 
+* **Implementation** 
+* **Test** 
+* **Result** 
+* **Verdict**     
+#### User story: I want to be able to see upcoming events, and what the project is about. 
+* **Plan** 
+* **Implementation**  
+* **Test**  
+* **Result**  
+* **Verdict**  
+
+
+## Bugs 
+
+### The fixed menu covers the headings of my elements
+
 
 
 [Back to Top](#table-of-contents)
