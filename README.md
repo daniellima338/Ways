@@ -56,7 +56,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
     + [**Languages**](#languages)
     + [**Libraries & Frameworks**](#libraries---frameworks)
     + [**Tools**](#tools)
-  * [**bugs**](#bugs)
+  * [**bugs**](#Bugs)
   * [**Testing**](#testing)
   * [**Deployment**](#deployment)
   * [**Credits**](#credits)
@@ -92,9 +92,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
    - I want a responsive website on any device, that gives me a good user experience. 
    - I want to understand what the organsation is doing, and how it can contribute to what i am looking for. 
    - I want to see other peoples experiences with the organisation and what they have gotten out of it.
-   - I want to understand what is demanded of me, if i make use of the organisation.
    - I want to easily be able to contact the organisation, if i have any questions.
-   - I want to be able to see upcoming events, and what the project is about. 
    
 
  #### As a returning visitor, 
@@ -314,7 +312,7 @@ In the footer there will be a link back to the top of the page. Furthermore ther
 
 <a></a>
 
-## bugs
+## Bugs
 
 [Back to Top](#table-of-contents)
 
@@ -389,30 +387,33 @@ The result is a user that are missing a link. The user might still be inclined t
 * **Verdict**    
 The test has passed all the criteria as planned, but will need further work to function properly. 
 
-#### User story: I want to understand what is demanded of me, if i make use of the organisation.
-* **Plan** 
-* **Implementation** 
-* **Test**   
-* **Result** 
-* **Verdict**   
 #### User story: I want to easily be able to contact the organisation, if i have any questions.
 * **Plan** 
-* **Implementation** 
-* **Test** 
-* **Result** 
-* **Verdict**     
-#### User story: I want to be able to see upcoming events, and what the project is about. 
-* **Plan** 
-* **Implementation**  
-* **Test**  
-* **Result**  
-* **Verdict**  
+The planned feature is a contact form at the bottom of the page, where the user will be able to ask any questions they might have. The contact form should be easy to access and not course the user any trouble. 
 
+* **Implementation** 
+The implimentation is done through bootstraps build in modules, and then styled accordingly to the theme of the page. There will be 3 input fields. One for name, one for email and then one for the inquery they are asking about. All 3 fields will be requered to fill out. 
+
+* **Test** 
+While testing the solution on every device, it is clear that the background image does not render well on mobile. The positioning of the image have been moved, to fit better on the page. Besides that, everything works as anticipated. 
+
+* **Result** 
+The result is that the user can find the form at the end of the page. At this stage the user is not able to send on inqueries, as their is not server to send responses to. This will change at a later stage. 
+
+* **Verdict**     
+The test has passed all the criteria and works like planned.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
 
 ## Bugs 
 
 ### The fixed menu covers the headings of my elements
+During testing it became apparent that the fixed navigation bar would cover the headings of some of my sections. This was fixed using a bigger margin on the headers, so they are moved under the navigation bar. 
 
+### The pictures does not sit well on mobile
+While testing it became apparent that the pictures would have to be moved, to fit better on the screen on mobile. Therefore every picture was moved, so the right perspective where centered. 
 
 
 [Back to Top](#table-of-contents)
