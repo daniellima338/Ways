@@ -8,6 +8,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #335A30;
+    background-color: #F7F6F6;
 }
 
 .opaque-overlay {
@@ -20,33 +21,52 @@ body {
 }
 
 p {
-    font-size: 1.2rem;
-}
-
-h1 {
-    font-family: "Cairo", sans-serif;
-    font-weight: 900;
-    color: #4D9348;
-    font-size: 4.8rem;
-}
-
-h2 {
-    font-family: "Cairo", sans-serif;
-    font-weight: 700;
-    color: #4D9348;
-    font-size: 3.6rem;
+    font-size: 1.4rem;
 }
 
 h3 {
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     color: #4D9348;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
 }
 
-/* ------------------Header */
+h2 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    color: #4D9348;
+    font-size: 4.2rem;
+}
 
-/*---------------------- Navbar */
+h1 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 900;
+    color: #4D9348;
+    font-size: 5.6rem;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* block dividers */
+
+.block-divider {
+    width: 7.5rem;
+    height: 0.5rem;
+    border: 0;
+    background-color: #ffc605;
+}
+
+/* font awesome icons */
+
+.fas {
+    color: #ffc605;
+}
+
+/* Navbar */
 
 .navalert-container {
     top: 0;
@@ -60,15 +80,24 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
 }
 
-/* ------------------callout */
+.navbar-light .navbar-nav .nav-link {
+    color: #4D9348;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background-color: #F7F6F6;
+}
+
+
+/* callout */
 .callout-container {
     height: 100vh;
-    width: 100%;
-
 
     background: url(../images/hero-image.jpg) no-repeat bottom fixed;
     background-position: 25%;
@@ -81,67 +110,41 @@ h3 {
     align-items: center;
     justify-content: center;
 
-    position: relative;
 }
 
-.callout-container h2 {
-    color: #fff;
-}
 
-.navbar-light .navbar-nav .nav-link {
-    color: #4D9348;
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-
-.navbar {
-    background-color: #fff;
-}
-
-/**----------------------- Jumbotron */
+/* Jumbotron */
 
 .jumbotron {
-    background-color: transparent;
+    background-color: rgba(4, 36, 11, 0.3);
 }
 
-.jumbotron-header {
-    font-family: "Cairo", sans-serif;
-    font-weight: 700;
-    color: #FFF5F5;
+.jumbotron h1 {
+    color: #F7F6F6;
 }
 
-/*** -------------------- block dividers */
-.block-divider {
-    width: 7.5rem;
-    height: 0.5rem;
-    border: 0;
-    background-color: #ffc605;
+.jumbotron h2 {
+    color: #F7F6F6;
 }
+
 
 /* ------------------features */
 
 .ways-logo {
     background-image: url("../images/ways-logo.png");
     background-size: cover;
-    height: 10rem;
-    width: 10rem;
-}
-
-.center-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 12rem;
+    width: 12rem;
 }
 
 .features-container {
-    width: 100%;
+    padding: 3rem;
 }
 
-/* ---------------------about us */
+/* About us */
 
 .about-section {
     height: 100vh;
-    width: 100%;
 
     background: url(../images/photo-1.jpg) no-repeat bottom fixed;
     background-position: 30%;
@@ -170,14 +173,26 @@ h3 {
     font-size: 2.4rem;
 }
 
-/* ---------------------meet our team */
+.alternative-learning i {
+    color: #ffc605;
+}
 
+
+/* Meet our team */
 
 .meet-our-team-header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     margin-top: 5rem;
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
 }
 
 /* ----------------------contact form */
@@ -193,7 +208,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* This is used to move a box to the middle of the page  */
 
     position: relative;
 }
@@ -206,7 +220,7 @@ h3 {
     color: #fff;
 }
 
-/* -----------------------Footer */
+/* Footer */
 
 .social-links li a i {
     font-size: 3.6rem;
@@ -231,7 +245,6 @@ h3 {
 
 /* MEDIA QUERIES */
 
-/* about section */
 
 @media (min-width: 768px) {
     .about-section .ways-logo {
@@ -242,81 +255,44 @@ h3 {
 
     }
 
+    .right-side {
+        position: relative;
+        left: 20%;
+        bottom: 10%;
+        justify-content: center;
+    }
+
     .left-side {
         position: relative;
-        right: 60%;
-        justify-content: center;
-    }
-
-    .right-side-1 {
-        position: relative;
-        left: 20%;
-        bottom: 10%;
-        justify-content: center;
-    }
-
-    .right-side-2 {
-        position: relative;
-        left: 20%;
-        top: 10%;
-        justify-content: center;
-    }
-
-    .left-side-1 {
-        position: relative;
         right: 20%;
         bottom: 10%;
         justify-content: center;
-    }
-
-    .left-side-2 {
-        position: relative;
-        right: 20%;
-        top: 10%;
-        justify-content: center;
-    }
-
-    .about-section-header {
-        position: relative;
-        bottom: 90%;
     }
 
     .learning-opportunities {
         position: relative;
-        left: 50%;
-        bottom: 20%;
+        left: 30%;
     }
 
     .experience {
         position: relative;
-        right: 50%;
-        bottom: 20%;
+        right: 30%;
     }
 
     .creativety {
         position: relative;
-        left: 50%;
-        margin-top: 40%;
+        left: 30%;
+        margin-top: 10%;
     }
 
     .alternative-learning {
         position: relative;
-        right: 50%;
-        margin-top: 40%;
+        right: 30%;
+        margin-top: 10%;
     }
 
     .features-container {
         height: 60vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media (min-width: 992px) {
-    .meet-our-team .team-members {
-        height: 50vh;
         width: 100%;
         display: flex;
         justify-content: center;
