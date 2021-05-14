@@ -81,7 +81,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 ### **User Stories**
 
-#### A a first time visitor to this website, 
+#### A a first time user of this website, 
    - I want to easily navigate around and have a navigation that is easily understood.
    - I want a responsive website on any device, that gives me a good user experience. 
    - I want to understand what the organsation is doing, and how it can contribute to what i am looking for. 
@@ -89,7 +89,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
    - I want to easily be able to contact the organisation, if i have any questions.
    
 
- #### As a returning visitor, 
+ #### As a returning user of, 
    - I want to see how i can contribute to the organisation. 
    - I want to quickly be able to see where i can sign up for a project. 
    - I want to know who to contact if i will go into collaboration with the organisation.
@@ -196,15 +196,15 @@ The website will be easy to navigate by using the navigation bar or by scrolling
 <a></a>
 
 ### Changes made to wireframes 
-Ways logo has been added to the features section, as it gives a good indication of who the organisation is, and it fit well in.
+Ways logo has been added to the features section, as it gives a good indication of who the organisation is, and it fit well in. Changes have also been made to the About us section. Here there are only two key sentences on mobile visble, because it was to comprimised on mobile, with all of them. 
 
 You can find my wireframes below:
 
-### [Desktop Wireframe](wireframes/desktop_wireframe.png)
+### [Desktop Wireframe](wireframes/desktop-wireframe.png)
 
-### [Tablet Wireframe](wireframes/tablet_wireframe.png)
+### [Tablet Wireframe](wireframes/tablet-wireframe.png)
 
-### [Mobile Wireframe](wireframes/mobile_wireframe.png)
+### [Mobile Wireframe](wireframes/mobile-wireframe.png)
 
 [Back to Top](#table-of-contents)
 
@@ -408,6 +408,9 @@ During testing it became apparent that the fixed navigation bar would cover the 
 
 ### The pictures does not sit well on mobile
 While testing it became apparent that the pictures would have to be moved, to fit better on the screen on mobile. Therefore every picture was moved, so the right perspective where centered. 
+
+### to crowded in the about us section on mobile
+As the initial thought approach on mobile was too crowded i ended up only having two sentences visible on mobile in the about us section. This was much more pleasing to the eye. 
 
 
 [Back to Top](#table-of-contents)
