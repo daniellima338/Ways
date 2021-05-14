@@ -9,6 +9,7 @@ body {
     font-weight: 600;
     color: #335A30;
     background-color: #F7F6F6;
+    font-size: 1.6rem;
 }
 
 .opaque-overlay {
@@ -18,10 +19,6 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(4, 36, 11, 0.7);
-}
-
-p {
-    font-size: 1.4rem;
 }
 
 h3 {
@@ -35,14 +32,14 @@ h2 {
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     color: #4D9348;
-    font-size: 4.2rem;
+    font-size: 4rem;
 }
 
 h1 {
     font-family: "Cairo", sans-serif;
     font-weight: 900;
     color: #4D9348;
-    font-size: 5.6rem;
+    font-size: 5.2rem;
 }
 
 .center-content {
@@ -68,13 +65,6 @@ h1 {
 
 /* Navbar */
 
-.navalert-container {
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .logo {
     background: url("../images/ways-logo.png");
     background-position: center;
@@ -87,7 +77,6 @@ h1 {
 .navbar-light .navbar-nav .nav-link {
     color: #4D9348;
     font-weight: 800;
-    font-size: 1.2rem;
 }
 
 .navbar {
@@ -119,14 +108,10 @@ h1 {
     background-color: rgba(4, 36, 11, 0.3);
 }
 
-.jumbotron h1 {
+.jumbotron h1,
+h2 {
     color: #F7F6F6;
 }
-
-.jumbotron h2 {
-    color: #F7F6F6;
-}
-
 
 /* ------------------features */
 
@@ -158,11 +143,11 @@ h1 {
     justify-content: center;
     position: relative;
 
-    color: white;
+    color: #F7F6F6;
 }
 
 .about-section-header {
-    color: white;
+    color: #F7F6F6;
 }
 
 .about-section p {
@@ -213,11 +198,11 @@ h1 {
 }
 
 .contact-section {
-    color: #fff;
+    color: #F7F6F6;
 }
 
 .contact-section-header {
-    color: #fff;
+    color: #F7F6F6;
 }
 
 /* Footer */
