@@ -25,9 +25,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
   * [**UX**](#ux)
     + [**User Goals**](#user-goals)
     + [**User Stories**](#user-stories)
-          + [A first time visitor to this website,](#a-first-time-visitor-to-this-website)
-          + [As a returning visitor,](#as-a-returning-visitor-)
-    + [**Site owners Goals**](#site-owners-goals)
+    + [**Site owners Goals**](#site-owner-goals)
     + [**User Requirements and Expectations**](#user-requirements-and-expectations)
       - [Requirements](#requirements)
       - [Expectations](#expectations)
@@ -38,10 +36,6 @@ If you have any feedback or questions, head over to my GitHub contact details an
         * [Changes made to color scheme](#changes-made-to-color-scheme)
       - [Structure](#structure)
   * [**Wireframes**](#wireframes)
-    + [**Changes made to wireframes**](#changes-made-to-wireframes)
-    + [[Desktop Wireframe](wireframes/desktop_wireframe.png)](#-desktop-wireframe--wireframes-desktop-wireframepng-)
-    + [[Tablet Wireframe](wireframes/tablet_wireframe.png)](#-tablet-wireframe--wireframes-tablet-wireframepng-)
-    + [[Mobile Wireframe](wireframes/mobile_wireframe.png)](#-mobile-wireframe--wireframes-mobile-wireframepng-)
   * [**Features**](#features)
     + [**Existing Features**](#existing-features)
       - [Navigation](#navigation)
@@ -87,7 +81,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 ### **User Stories**
 
-#### A first time visitor to this website, 
+#### A a first time visitor to this website, 
    - I want to easily navigate around and have a navigation that is easily understood.
    - I want a responsive website on any device, that gives me a good user experience. 
    - I want to understand what the organsation is doing, and how it can contribute to what i am looking for. 
@@ -105,7 +99,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 <a></a>
 
-### **Site owners Goals**
+### **Site owner Goals**
 * Increase awareness about Erasmus+ Youth projects.
 * Increase participation.
 * Give young people an opportunity of a lifetime.
@@ -427,7 +421,10 @@ I deployed my Ways project website in the following way:
 * Logged in to my GitHub account and locating my repository
 * Clicked on the settings icon (near the top right of the page)
 * Scrolled down the page to locate the 'GitHub Pages' section
-* I selected 'Master branch' in the dropdown
+* Under "Source", select "Master" in the dropdown menu.
+* In the tab next to "Source", select "/root" if not already selected by default
+* Click save then the page will automatically refresh.
+* The link should show in a banner just above "GitHub Pages" section.
 * This deployed my project to the URL: (https://daniellima338.github.io/Ways/)
 
 [Back to Top](#table-of-contents)
@@ -447,7 +444,7 @@ Pictures are from Ways projects and Ways have the right to all of them.
 
 ### Acknowledgements
 
-First and foremost i want to thanks [Ways](https://waysforyouth.dk/), for letting me borrow their name, pictures and general inspiration for this project. It has really been usefull to have all assets at hand, and not have to worry about copyrights. 
+First and foremost i want to thank [Ways](https://waysforyouth.dk/), for letting me borrow their name, pictures and general inspiration for this project. It has really been usefull to have all assets at hand, and not have to worry about copyrights. 
 Secondly i want to thank my mentor [Eventyret_mentor](https://github.com/Eventyret) for very valuable advice. Thank you for always being very constructive and easy going. 
 
 [Back to Top](#table-of-contents)
