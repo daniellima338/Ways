@@ -12,6 +12,7 @@ body {
     font-size: 1.6rem;
 }
 
+/* Code directly from the Code Institute course */
 .opaque-overlay {
     position: absolute;
     top: 0;
