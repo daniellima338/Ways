@@ -21,24 +21,25 @@ body {
     background-color: rgba(4, 36, 11, 0.7);
 }
 
+h1,
+h2,
 h3 {
     font-family: "Cairo", sans-serif;
-    font-weight: 700;
     color: #4D9348;
+}
+
+h3 {
+    font-weight: 700;
     font-size: 2.8rem;
 }
 
 h2 {
-    font-family: "Cairo", sans-serif;
     font-weight: 700;
-    color: #4D9348;
     font-size: 4rem;
 }
 
 h1 {
-    font-family: "Cairo", sans-serif;
     font-weight: 900;
-    color: #4D9348;
     font-size: 5.2rem;
 }
 
@@ -98,7 +99,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -125,13 +125,9 @@ h1 {
     width: 12rem;
 }
 
-.features-container {
-    padding: 3rem;
-}
-
 /* About us */
 
-.about-section {
+#about-us {
     height: 100vh;
 
     background: url(../images/photo-1.jpg) no-repeat bottom fixed;
@@ -149,31 +145,12 @@ h1 {
     color: #F7F6F6;
 }
 
-.about-section-header {
-    color: #F7F6F6;
-}
-
-.about-section p {
-    font-size: 1.6rem;
-}
-
-.about-section section p i {
+#about-us section p i {
     font-size: 2.4rem;
-}
-
-.alternative-learning i {
     color: #ffc605;
 }
 
-
 /* Meet our team */
-
-.meet-our-team-header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    margin-top: 5rem;
-}
 
 .team-members {
     display: flex;
@@ -200,13 +177,11 @@ h1 {
     position: relative;
 }
 
-.contact-section {
+.form-text {
     color: #F7F6F6;
+    font-size: 1.2rem;
 }
 
-.contact-section-header {
-    color: #F7F6F6;
-}
 
 /* Footer */
 
@@ -235,7 +210,7 @@ h1 {
 
 
 @media (min-width: 768px) {
-    .about-section .ways-logo {
+    #about-us .ways-logo {
         position: relative;
         bottom: 10%;
         height: 20rem;
@@ -279,7 +254,7 @@ h1 {
         margin-top: 10%;
     }
 
-    .features-container {
+    #features {
         height: 60vh;
         width: 100%;
         display: flex;
