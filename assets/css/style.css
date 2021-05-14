@@ -108,8 +108,11 @@ h1 {
     background-color: rgba(4, 36, 11, 0.3);
 }
 
-.jumbotron h1,
-h2 {
+.jumbotron h1 {
+    color: #F7F6F6;
+}
+
+.jumbotron h2 {
     color: #F7F6F6;
 }
 
